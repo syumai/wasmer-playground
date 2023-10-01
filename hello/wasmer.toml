@@ -14,4 +14,3 @@ abi = "wasi"
 name = "proxy"
 module = "hello"
 runner = "https://webc.org/runner/wasi"
-

@@ -1,8 +1,7 @@
 use axum::{
     routing::get,
     Router,
-    response::{Html, IntoResponse},
-    http::{StatusCode, Uri, header::{self, HeaderMap, HeaderName}},
+    response::{Html},
 };
 use std::net::SocketAddr;
 
