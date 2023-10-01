@@ -1,0 +1,17 @@
+[package]
+name = "syumai/hello"
+version = "0.1.0"
+description = "Sample Axum server for Wasmer Edge"
+license = "MIT"
+wasmer-extra-flags = "--net --enable-threads --enable-bulk-memory"
+
+[[module]]
+name = "hello"
+source = "./target/wasm32-wasmer-wasi/release/hello.wasm"
+abi = "wasi"
+
+[[command]]
+name = "proxy"
+module = "hello"
+runner = "https://webc.org/runner/wasi"
+

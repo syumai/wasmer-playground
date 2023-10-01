@@ -1,0 +1,4 @@
+kind: wasmer.io/App.v0
+name: syumai-hello
+description: Sample Axum server for Wasmer Edge
+package: syumai/hello
