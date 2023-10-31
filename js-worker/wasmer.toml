@@ -1,6 +1,6 @@
 [package]
 name = "syumai/js-worker"
-version = "0.1.2"
+version = "0.1.3"
 description = "syumai/js-worker js worker"
 
 [dependencies]
