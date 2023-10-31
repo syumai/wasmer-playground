@@ -1,0 +1,7 @@
+---
+kind: wasmer.io/App.v0
+name: syumai-js-worker-worker
+package: syumai/js-worker@0.1.2
+cli_args:
+  - /src/index.js
+app_id: da_PRvJI4t0UqdR
